@@ -165,6 +165,7 @@ module FastlaneCore
       return "Windows" if RUBY_PLATFORM.downcase.include?("mswin")
       return "Linux" if RUBY_PLATFORM.downcase.include?("linux")
       return "Unknown"
+      # TODO
     end
 
     def install_method

@@ -87,6 +87,7 @@ describe FastlaneCore do
       end
     end
 
+    # TODO
     # macOS only (to work on Linux)
     if FastlaneCore::Helper.is_mac?
       describe "Xcode" do
