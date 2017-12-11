@@ -206,7 +206,7 @@ module Fastlane
         end
       end
 
-      # TODO Windows
+      # TODO: Windows
 
       table_content = {
         "fastlane" => Fastlane::VERSION,
